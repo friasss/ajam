@@ -13,7 +13,7 @@ const registrarUsuario = async () => {
   }
 
   try {
-    const respuesta = await fetch('https://backend-2-e81r.onrender.com/', {
+    const respuesta = await fetch('https://backend-2-e81r.onrender.com/registrar', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
